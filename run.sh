@@ -7,7 +7,7 @@ set -euo pipefail
 
 run_one() {
   local dir="$1"
-  local src="patterns/$dir/src"
+  local src="$dir/src"
   if [ ! -d "$src" ]; then
     echo "No such pattern: $dir"; return 1
   fi
@@ -25,7 +25,7 @@ run_one() {
 if [ "${1:-}" != "" ]; then
   run_one "$1"
 else
-  for d in patterns/*/; do
+  for d in */; do
     run_one "$(basename "$d")"
   done
 fi

@@ -22,7 +22,7 @@ No frameworks, no build tool required — just a JDK (Java 11+).
 Or by hand:
 
 ```bash
-cd patterns/01-singleton-pattern/src
+cd 01-singleton-pattern/src
 javac *.java
 java Demo
 ```
@@ -35,40 +35,40 @@ java Demo
 
 | # | Pattern | One-line idea |
 |---|---------|---------------|
-| 01 | [Singleton](patterns/01-singleton-pattern/) | Exactly one instance, shared everywhere |
-| 02 | [Factory Method](patterns/02-factory-pattern/) | Ask a factory for an object instead of `new` |
-| 03 | [Abstract Factory](patterns/03-abstract-factory-pattern/) | A factory of matching factories (product families) |
-| 04 | [Builder](patterns/04-builder-pattern/) | Build complex objects step by step |
-| 05 | [Prototype](patterns/05-prototype-pattern/) | Clone an existing object instead of rebuilding it |
+| 01 | [Singleton](01-singleton-pattern/) | Exactly one instance, shared everywhere |
+| 02 | [Factory Method](02-factory-pattern/) | Ask a factory for an object instead of `new` |
+| 03 | [Abstract Factory](03-abstract-factory-pattern/) | A factory of matching factories (product families) |
+| 04 | [Builder](04-builder-pattern/) | Build complex objects step by step |
+| 05 | [Prototype](05-prototype-pattern/) | Clone an existing object instead of rebuilding it |
 
 ### Structural — *how objects are wired together*
 
 | # | Pattern | One-line idea |
 |---|---------|---------------|
-| 06 | [Adapter](patterns/06-adapter-pattern/) | Make an incompatible interface fit |
-| 07 | [Decorator](patterns/07-decorator-pattern/) | Add behavior by wrapping, not subclassing |
-| 08 | [Facade](patterns/08-facade-pattern/) | One simple door in front of a messy subsystem |
-| 09 | [Proxy](patterns/09-proxy-pattern/) | A stand-in that controls access to the real object |
-| 10 | [Composite](patterns/10-composite-pattern/) | Treat a tree of objects like a single object |
+| 06 | [Adapter](06-adapter-pattern/) | Make an incompatible interface fit |
+| 07 | [Decorator](07-decorator-pattern/) | Add behavior by wrapping, not subclassing |
+| 08 | [Facade](08-facade-pattern/) | One simple door in front of a messy subsystem |
+| 09 | [Proxy](09-proxy-pattern/) | A stand-in that controls access to the real object |
+| 10 | [Composite](10-composite-pattern/) | Treat a tree of objects like a single object |
 
 ### Behavioral — *how objects talk and share responsibility*
 
 | # | Pattern | One-line idea |
 |---|---------|---------------|
-| 11 | [Observer](patterns/11-observer-pattern/) | Notify subscribers when something changes |
-| 12 | [Strategy](patterns/12-strategy-pattern/) | Swap an algorithm at runtime |
-| 13 | [Command](patterns/13-command-pattern/) | Wrap a request as an object (undo, queue, log) |
-| 14 | [Iterator](patterns/14-iterator-pattern/) | Walk a collection without exposing its guts |
-| 15 | [State](patterns/15-state-pattern/) | Change behavior when internal state changes |
-| 16 | [Template Method](patterns/16-template-method-pattern/) | Fix the skeleton, let subclasses fill steps |
-| 17 | [Chain of Responsibility](patterns/17-chain-of-responsibility-pattern/) | Pass a request down a chain of handlers |
+| 11 | [Observer](11-observer-pattern/) | Notify subscribers when something changes |
+| 12 | [Strategy](12-strategy-pattern/) | Swap an algorithm at runtime |
+| 13 | [Command](13-command-pattern/) | Wrap a request as an object (undo, queue, log) |
+| 14 | [Iterator](14-iterator-pattern/) | Walk a collection without exposing its guts |
+| 15 | [State](15-state-pattern/) | Change behavior when internal state changes |
+| 16 | [Template Method](16-template-method-pattern/) | Fix the skeleton, let subclasses fill steps |
+| 17 | [Chain of Responsibility](17-chain-of-responsibility-pattern/) | Pass a request down a chain of handlers |
 
 ---
 
 ## What's inside each folder
 
 ```
-patterns/01-singleton-pattern/
+01-singleton-pattern/
 ├── README.md   # class/ER diagram + relationships explained
 └── src/        # runnable Java: the pattern + a Demo.java with main()
 ```
